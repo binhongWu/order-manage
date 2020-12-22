@@ -40,9 +40,6 @@ public class SysUserController {
     @GetMapping("/loginByAccount")
     public JSONResult<SysUser> loginByAccount(){
         JSONResult<SysUser> jsonResult = new JSONResult<>();
-
-
-
         jsonResult.setStatusCode(String.valueOf(HttpStatus.OK));
         jsonResult.setSuccess(true);
         return jsonResult;
